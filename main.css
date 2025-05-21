@@ -1,0 +1,76 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+body{
+    background: #F7EFEA;
+}
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 1rem;
+    margin-left: 4%;
+}
+
+.navbar div {
+    background-color: #F7EFEA;
+}
+
+body nav div a img{
+    width: 55px;
+    height: 55px;
+    border-radius: 8px;
+    object-fit: fill;
+    margin-right: 4%;
+}
+.navbar-toggler img{
+    width: 40px;
+    height: 36px;
+}
+
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23D0AEAE' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Search FUnction */
+
+.Search_form{
+    margin-top: 1.5rem;
+    margin-left: .3rem;
+}
+
+.search_form {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #D9D9D9;
+}
+
+.search_input {
+  border: none;
+  border-radius: 38px 0 0 38px;
+  outline: none;
+  width: 82%;
+  height: 29px;
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  background: #D9D9D9;
+}
+
+.search_but {
+  border: none;
+  background:#D9D9D9;
+  padding-bottom:12px;
+  border-radius: 0px 38px 38px 0;
+  width: 10%;
+  height: 29px;
+  cursor: pointer;
+}
+
+.search_but img {
+  width: 16px;
+  height: 16px;
+}
