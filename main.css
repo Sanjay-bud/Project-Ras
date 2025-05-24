@@ -86,8 +86,9 @@ body nav div a img{
 /* highligt starts */
 
 .custom-carousel {
-  max-width: 361px;
-  height: auto;
+  width: 92%;
+  max-width: 420px;
+  max-height: auto;
   margin: 1.2rem auto;
   overflow: hidden;
   border-radius: 12px;
@@ -95,7 +96,7 @@ body nav div a img{
 
 .carousel-img {
   height: auto;
-  max-height: 171px; /* You can adjust this based on the desired vertical space */
+  max-height: 191px; /* You can adjust this based on the desired vertical space */
   object-fit: cover;
 }
 
@@ -104,3 +105,54 @@ body nav div a img{
 }
 
 /* highlight ends */
+
+.categories_main{
+  margin: 2rem auto;
+}
+
+.category-header {
+      background-color: #d0aeae;
+      color: #333;
+      border-radius: 25px;
+      font-size: 12px;
+      font-weight: 500;
+      margin-bottom: 20px;
+      width: 127px;
+      height: 25px;
+      margin: 0 auto;
+      text-align: center;
+      padding: 3px;
+    }
+
+    .category-container {
+      margin: 2rem auto;
+      background-color: #d8cfcd;
+      padding: 20px;
+      border-radius: 20px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      width: 90%;
+      max-width: 420px;
+    }
+
+    .category-item a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      border-radius: 50%;
+      width: 22vw;               /* Circle width is 22% of viewport width */
+      height: 22vw;              /* Height same as width for a perfect circle */
+      max-width: 80px;           /* Don't exceed this on larger screens */
+      max-height: 80px;
+      text-decoration: none;
+      color:  #5b4a4a;
+      font-size: 12px;
+      text-align: center;
+      transition: background-color 0.3s;
+    }
+
+    .category-item a:hover {
+      background-color: #e2cfcf;
+    }
