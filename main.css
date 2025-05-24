@@ -134,9 +134,11 @@ body nav div a img{
       gap: 20px;
       width: 90%;
       max-width: 420px;
+      align-items: center;
     }
 
     .category-item a {
+      margin: auto;
       display: flex;
       align-items: center;
       justify-content: center;
