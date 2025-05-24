@@ -6,6 +6,9 @@
 body{
     background: #F7EFEA;
 }
+
+/* Navbar starts */
+
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
@@ -34,7 +37,9 @@ body nav div a img{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23D0AEAE' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-/* Search FUnction */
+/* navbar ends */
+
+/* Search FUnction starts */
 
 .Search_form{
     margin-top: 1.5rem;
@@ -46,6 +51,7 @@ body nav div a img{
   align-items: center;
   border: none;
   background-color: #D9D9D9;
+  margin: 0 auto;
 }
 
 .search_input {
@@ -65,7 +71,7 @@ body nav div a img{
   background:#D9D9D9;
   padding-bottom:12px;
   border-radius: 0px 38px 38px 0;
-  width: 10%;
+  width: 10.5%;
   height: 29px;
   cursor: pointer;
 }
@@ -74,3 +80,27 @@ body nav div a img{
   width: 16px;
   height: 16px;
 }
+
+/* search ends */
+
+/* highligt starts */
+
+.custom-carousel {
+  max-width: 361px;
+  height: auto;
+  margin: 1.2rem auto;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.carousel-img {
+  height: auto;
+  max-height: 171px; /* You can adjust this based on the desired vertical space */
+  object-fit: cover;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  opacity: 0;
+}
+
+/* highlight ends */
