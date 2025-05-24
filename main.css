@@ -158,3 +158,36 @@ body nav div a img{
     .category-item a:hover {
       background-color: #e2cfcf;
     }
+
+
+.news-ticker {
+  width: 100%;
+  height: 35px;
+  background-color: #d0aeae;
+  overflow: hidden;
+  position: relative;
+  margin: 2rem auto;
+}
+
+.ticker-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scrollText 20s linear infinite;
+}
+
+.ticker-content span {
+  margin: .4rem auto;
+  display: inline-block;
+  color: #5b4a4a;
+  font-size: 14px;
+  padding-right: 50px;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
